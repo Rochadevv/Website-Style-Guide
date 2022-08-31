@@ -1,0 +1,139 @@
+html {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  color: #ffba5f;
+}
+.banner {
+  width: 100%;
+}
+.sunset-photo {
+  color: #fff;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0px 100px;
+  font-family: 'Patua One', cursive;
+}
+
+/* ------  Color Section       ----------*/
+
+.container {
+  border-top: dashed 2px #fff7b8;
+  padding: 10px;
+  margin: 10px auto;
+}
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 49.8%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+  border-radius: 10px;
+}
+.color-label {
+  font-size: 20px;
+}
+.hot-sun {
+  background-color: rgb(255, 255, 255);
+  color: rgb(52, 48, 65);
+}
+.warm-sun {
+  background-color: rgb(255, 247, 184);
+  color: #000;
+}
+.medium-sun {
+  background-color: rgb(255, 186, 95);
+  color: rgb(52, 48, 65);
+}
+.cold-sun {
+  background-color: rgb(229, 167, 130);
+
+  color: rgb(141, 100, 96);
+}
+.almost-night {
+  background-color: rgb(141, 100, 96);
+}
+.night {
+  background-color: rgb(52, 48, 65);
+
+  color: rgb(255, 247, 184);
+}
+
+/*----------------- Thypography ------------*/
+
+.font-panel {
+  display: inline-block;
+  width: 45%;
+}
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.noticia-text {
+  font-family: 'Noticia Text', serif;
+}
+.regular {
+  font-style: normal;
+}
+.bold {
+  font-weight: 700;
+}
+.italic {
+  font-style: italic;
+}
+
+.patua-one {
+  font-family: 'Patua One', cursive;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+li {
+  list-style: none;
+}
+/*------------- Fonts Style ---------------*/
+.text-panel h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Patua One', cursive;
+}
+
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Noticia Text', serif;
+}
+
+.text-panel h1,
+.text-panel h2,
+.text-panel p {
+  margin-top: 40px;
+}
+/*---------Footer----------*/
+
+footer {
+  background-color: #343041;
+  color: #e5a782;
+  font-family: 'Noticia Text', serif;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px 20px 2px 10px;
+  font-size: 12px;
+}
